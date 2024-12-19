@@ -1,4 +1,6 @@
-﻿namespace Demo
+﻿using System.Text;
+
+namespace Demo
 {
     internal class Program
     {
@@ -120,8 +122,37 @@
 
             #endregion
 
+            #region StringBuilder
+            //StringBuilder Message;
 
+            //Message = new StringBuilder("Hello");
 
+            //Console.WriteLine(Message);
+            //Console.WriteLine(Message.GetHashCode());
+
+            ////Message += " Route";
+            //Message.Append(" Route");
+
+            //Console.WriteLine(Message);
+            //Console.WriteLine(Message.GetHashCode());
+            #endregion
+            #region StringBuilder Methods
+
+            //StringBuilder Message = new StringBuilder("Welcome");
+
+            //Message.Append(" To Route");
+            //Message.AppendLine("Ahmed");
+            //Message.Append("Eita");
+
+            //Message.Remove(0, 7);
+            //Message.Insert(0, "Hello");
+
+            //int Age = 10;
+            //string Name = "Ali";
+            //Message.AppendFormat("Name : {0}, Age: {1}", Name, Age);
+
+            //Console.WriteLine(Message); 
+            #endregion
 
 
 

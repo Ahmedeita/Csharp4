@@ -213,7 +213,18 @@ namespace Demo
             //        Console.WriteLine(Marks[i, k]); 
             //    }
             //}
+
+            #region iterate with one loop
+            //Console.Clear();
+
+            //for (int i = 0; i < Marks.Length; i++)
+            //{
+            //    Console.WriteLine(Marks[i / Marks.GetLength(1), i % Marks.GetLength(1)]);
+            //}
             #endregion
+            #endregion
+
+
         }
     }
 }

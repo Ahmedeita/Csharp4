@@ -173,7 +173,7 @@ namespace Demo
 
             //for (int i = 0; i < Numbers.Length; i++)
             //{
-               
+
             //    Console.WriteLine(Numbers[i]);
             //}
 
@@ -182,7 +182,38 @@ namespace Demo
 
             #endregion
 
+            #region Array 2 D
+            //int[,] Marks = new int[3, 5];
 
+            //// Console.WriteLine(Marks.Length); // This would give an error
+            //// Console.WriteLine(Marks.Rank); // This would print 2 (2-dimensional array)
+            //// Console.WriteLine(Marks.GetLength(0)); // This would print 3 (number of rows)
+            //// Console.WriteLine(Marks.GetLength(1)); // This would print 5 (number of columns)
+
+            //for (int i = 0; i < Marks.GetLength(0); i++)
+            //{
+            //    Console.WriteLine($"Enter Grades for Student {i + 1}");
+            //    for (int k = 0; k < Marks.GetLength(1); )
+            //    {
+            //          bool flag = false;
+            //        Console.WriteLine($"Enter Grade for Subject {k + 1}");
+            //        Marks[i, k] = int.Parse(Console.ReadLine());
+            //          flag = int.TryParse(Console.ReadLine(), out Marks[i, k]);
+            //        if (flag && Marks[i, k]>=0 ) { k++}
+            //          K = flag && Marks[i, k] >= 0 ? ++k : k;
+            //    }
+            //}
+
+            //for (int i = 0; i < Marks.GetLength(0); i++)
+            //{
+            //    Console.WriteLine($"Grades for Student {i + 1}");
+            //    for (int k = 0; k < Marks.GetLength(1); k++)
+            //    {
+            //        Console.Write($"Grade for Subject {k + 1}");
+            //        Console.WriteLine(Marks[i, k]); 
+            //    }
+            //}
+            #endregion
         }
     }
 }

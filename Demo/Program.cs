@@ -22,7 +22,29 @@
             //}
             #endregion
 
-        
+
+            #region For - Foreach
+            //int[] Numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+
+            //for (int i = 0; i < Numbers.Length; i++)
+            //{
+            //    Numbers[i] += 10;
+            //      if (Numbers[i]==5)
+            //        {
+            //          break;
+            //        }
+            //    Console.WriteLine(Numbers[i] + 10);
+            //}
+
+            //// Using a foreach loop to iterate over elements without modifying them Because it use Function GetEnumerator in Interface IEnummrable
+
+            //foreach (int Number in Numbers)
+            //{
+            //    Console.WriteLine(Number + 10);
+            //}
+            #endregion
+
+
 
         }
     }

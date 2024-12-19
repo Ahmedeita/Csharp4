@@ -71,6 +71,59 @@
             //Console.WriteLine($"{Number} is Even");
             #endregion
 
+            #region String
+            // Immutable Data Type [Value cannot be Changed]
+            // Array Of Chars
+            // "A H M E D"
+
+            //string Name;
+
+            //// Name = new string("Ahmed");
+
+            //Name = "Ahmed";
+
+            //string Name01 = "Ahmed";
+            //string Name02 = "Ahmed";
+
+            //Console.WriteLine(Name01);
+            //Console.WriteLine($"Hash code Name 01 : {Name01.GetHashCode()}");
+            //Console.WriteLine(Name02);
+            //Console.WriteLine($"Hash code Name 02 : {Name02.GetHashCode()}");
+
+
+            //string Name01 = "Ahmed";
+            //string Name02 = "Ali";
+
+            //Console.WriteLine(Name01);
+            //Console.WriteLine($"Hash code Name 01 : {Name01.GetHashCode()}");
+            //Console.WriteLine(Name02);
+            //Console.WriteLine($"Hash code Name 02 : {Name02.GetHashCode()}");
+
+            //Name02 = Name01;
+            //Console.WriteLine(Name01);
+            //Console.WriteLine($"Hash code Name 01 : {Name01.GetHashCode()}");
+            //Console.WriteLine(Name02);
+            //Console.WriteLine($"Hash code Name 02 : {Name02.GetHashCode()}");
+
+            //Name01 = "Mostafa";
+            //Console.WriteLine(Name01);
+            //Console.WriteLine($"Hash code Name 01 : {Name01.GetHashCode()}");
+            //Console.WriteLine(Name02);
+            //Console.WriteLine($"Hash code Name 02 : {Name02.GetHashCode()}"); 
+
+            //String Message = "Hello";
+            //Console.WriteLine(Message);
+            //Console.WriteLine(Message.GetHashCode());
+            //Message += " Route";
+            //Console.WriteLine(Message);
+            //Console.WriteLine(Message.GetHashCode());
+
+            #endregion
+
+
+
+
+
 
         }
     }

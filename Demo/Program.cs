@@ -224,6 +224,22 @@ namespace Demo
             #endregion
             #endregion
 
+            #region Judged Array
+            //int[][] Number = new int[3][];
+
+            //Number[0] = new int[3] { 1, 2, 3 };
+            //Number[1] = new int[2] { 4, 5 };
+            //Number[2] = new int[1] { 6 };
+
+            //for (int i = 0; i < Number.Length; i++)
+            //{
+            //    for (int j = 0; j < Number[i].Length; j++)
+            //    {
+            //        Console.WriteLine(Number[i][j]);
+            //    }
+            //}
+            #endregion
+            //Array Methods
 
         }
     }

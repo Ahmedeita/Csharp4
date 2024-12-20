@@ -195,7 +195,7 @@ namespace Assignment
             //        Numbers[i] =num;
             //        i++;
             //    }
-                
+
             //}
             //int sum =0 ;
             //for (int i = 0; i < Numbers.Length; i++)
@@ -204,6 +204,53 @@ namespace Assignment
 
             //}
             //Console.WriteLine($"The Sum of Elements In The Array = {sum}");
+            #endregion
+
+            #region Q13
+            //13- Write a program in C# Sharp to merge two arrays of the same size sorted in ascending order.
+            //Console.Write("Enter the Length of the array : ");
+            //int Size = int.Parse(Console.ReadLine());
+            //int [] FirstArray = new int[Size];
+            //int [] SecondArray = new int[Size];
+
+            //for (int i = 0; i < FirstArray.Length;)
+            //{
+            //    bool flag = true;
+            //    int num;
+            //    Console.Write($"Enter First Array element [{i + 1}] : ");
+            //    flag = int.TryParse(Console.ReadLine(), out num);
+            //    if (flag)
+            //    {
+            //        FirstArray[i] = num;
+            //        i++;
+            //    }
+
+            //}
+
+            //for (int i = 0; i < SecondArray.Length;)
+            //{
+            //    bool flag = true;
+            //    int num;
+            //    Console.Write($"Enter Second Array element [{i + 1}] : ");
+            //    flag = int.TryParse(Console.ReadLine(), out num);
+            //    if (flag)
+            //    {
+            //        SecondArray[i] = num;
+            //        i++;
+            //    }
+
+            //}
+
+            //int[] MergedArray = FirstArray.Concat(SecondArray).ToArray();
+            //Array.Sort(MergedArray);
+
+            //for (int i = 0; i < MergedArray.Length; i++)
+            //{
+            //    Console.WriteLine($"The Megerd Array Element [{i+1}] :{MergedArray[i]} ");
+
+            //}
+
+
             #endregion
 
         }

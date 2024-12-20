@@ -145,6 +145,17 @@ namespace Assignment
 
 
             #endregion
+
+            #region Q10
+            //10- Write C# program that take two string variables and print them as one variable 
+            //Console.WriteLine("Enter the 1st String : ");
+            //string FirstString = Console.ReadLine();
+            //Console.WriteLine("Enter the 2nd String : ");
+            //string SecondString = Console.ReadLine();
+            //StringBuilder sb = new StringBuilder(FirstString);
+            //sb.Append(SecondString);
+            //Console.WriteLine(sb);
+            #endregion
         }
     }
 }

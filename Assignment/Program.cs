@@ -20,7 +20,17 @@
 
             //for (int i = 1; i <= 12; )
             //    Console.WriteLine($"{Num} * {i} = {Num * i++}");
-             
+
+            #endregion
+
+            #region Q3
+            //3- Write a program that allows to user to insert number then print all even numbers between 1 to this number
+                //Console.Write("Enter Integer Number : ");
+                //int Number;
+                //int.TryParse(Console.ReadLine(), out Number);
+                //for (int i = 1; i <= Number; i++)
+                //    if (i % 2 == 0 )
+                //    Console.Write($" {i},");
             #endregion
 
         }

@@ -117,13 +117,32 @@ namespace Assignment
             //    {
             //        if (i == j)
             //           Console.Write("1 ");
-                    
+
             //        else
             //          Console.Write("0 ");
-                    
+
             //    }
             //    Console.WriteLine();
             //}
+
+            #endregion
+
+            #region Q9
+            //9- Write C# program that Extract a substring from a given string.
+            //Console.Write("Enter The String : ");
+            //string Text = Console.ReadLine();
+
+            //Console.Write("Enter the Start Index : ");
+            //int StartIndex = int.Parse(Console.ReadLine());
+            //Console.Write("Enter the Length  : ");
+            //int Length = int.Parse(Console.ReadLine());
+
+            //if (StartIndex >= 0 && Length + StartIndex <= Text.Length)
+            //    Console.WriteLine(Text.Substring(StartIndex, Length));
+
+            //else
+            //    Console.WriteLine("Invalid Input !!! ");
+
 
             #endregion
         }

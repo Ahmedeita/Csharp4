@@ -1,4 +1,6 @@
-﻿namespace Assignment
+﻿using System;
+
+namespace Assignment
 {
     internal class Program
     {
@@ -60,6 +62,33 @@
             //}
             #endregion
 
+            #region Q6
+            //6- Write a program in C# Sharp to find prime numbers within a range of numbers.
+
+            //Console.Write("Enter start number: ");
+            //int start = int.Parse(Console.ReadLine());
+
+            //Console.Write("Enter end number: ");
+            //int end = int.Parse(Console.ReadLine());
+
+            //for (int num = start; num <= end; num++)
+            //{
+            //    bool Prime = true;
+            //    for (int i = 2; i * i <= num; i++)
+            //    {
+            //        if (num % i == 0)
+            //        {
+            //            Prime = false;
+            //            break;
+            //        }
+
+            //    }
+            //    if (Prime)
+            //        Console.WriteLine(num);
+
+                #endregion
+
+            }
         }
     }
 }

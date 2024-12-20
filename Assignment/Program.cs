@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace Assignment
 {
@@ -86,9 +87,22 @@ namespace Assignment
             //    if (Prime)
             //        Console.WriteLine(num);
 
-                #endregion
+            #endregion
 
-            }
+            #region Q7
+            //7- . Write a program in C# Sharp to convert a decimal number into binary without using an array.
+            //Console.Write("Enter a decimal number To Convert : ");
+            //int Num = int.Parse(Console.ReadLine());
+
+            //StringBuilder sb = new StringBuilder();
+
+            //while (Num > 0)
+            //{
+            //    sb.Append(Num % 2);
+            //    Num /= 2;
+            //}
+            //Console.Write("The Binary of 25 is " + sb);
+            #endregion
         }
     }
 }

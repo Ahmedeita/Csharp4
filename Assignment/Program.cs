@@ -325,6 +325,44 @@ namespace Assignment
             //Console.WriteLine($"Min Number : {Min}");
             #endregion
 
+            #region Q16
+            //16- Write a program in C# Sharp to find the second largest element in an array.
+            //Console.Write("Enter the Length of the array : ");
+            //int Size = int.Parse(Console.ReadLine());
+            //int[] Numbers = new int[Size];
+
+            //for (int i = 0; i < Numbers.Length;)
+            //{
+            //    bool flag = true;
+            //    int num;
+            //    Console.Write($"Enter First Array element [{i + 1}] : ");
+            //    flag = int.TryParse(Console.ReadLine(), out num);
+            //    if (flag)
+            //    {
+            //        Numbers[i] = num;
+            //        i++;
+            //    }
+            //}
+            //Array.Sort(Numbers);
+            //int SecondLastIndex = Numbers.Length - 2;
+            //while (SecondLastIndex >= 0)
+            //{
+
+            //    if (Numbers[SecondLastIndex] == Numbers[Numbers.Length - 1])
+            //    { SecondLastIndex--; continue; }
+
+
+            //    Console.WriteLine(Numbers[SecondLastIndex]);
+            //    break;
+            //}
+            #endregion
+
+            #region Q17
+            //17-. Consider an Array of Integer values with size N, having values as in this Example
+
+
+
+            #endregion
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel;
 using System.Text;
 
 namespace Assignment
@@ -296,6 +297,32 @@ namespace Assignment
 
 
 
+            #endregion
+
+            #region Q15
+            //15 - Write a program in C# Sharp to find maximum and minimum element in an array
+
+            //Console.Write("Enter the Length of the array : ");
+            //int Size = int.Parse(Console.ReadLine());
+            //int[] Numbers = new int[Size];
+
+            //for (int i = 0; i < Numbers.Length;)
+            //{
+            //    bool flag = true;
+            //    int num;
+            //    Console.Write($"Enter First Array element [{i + 1}] : ");
+            //    flag = int.TryParse(Console.ReadLine(), out num);
+            //    if (flag)
+            //    {
+            //        Numbers[i] = num;
+            //        i++;
+            //    }
+
+            //}
+            //int Max = Numbers.Max();
+            //Console.WriteLine($"Max Number : {Max}");
+            //int Min = Numbers.Min();
+            //Console.WriteLine($"Min Number : {Min}");
             #endregion
 
         }

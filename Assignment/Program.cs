@@ -358,9 +358,47 @@ namespace Assignment
             #endregion
 
             #region Q17
-            //17-. Consider an Array of Integer values with size N, having values as in this Example
+            //17-. Consider an Array of Integer values with size N, having values as in this Example - write a program find the longest distance between Two equal cells.
+
+            //Console.Write("Enter the Length of the array : ");
+            //int N = int.Parse(Console.ReadLine());
+            //int[] Numbers = new int[N];
 
 
+            //for (int i = 0; i < N;)
+            //{
+            //    bool flag = true;
+            //    int num;
+            //    Console.Write($"enter Numbers element [{i + 1}] : ");
+            //    flag = int.TryParse(Console.ReadLine(), out num);
+            //    if (flag)
+            //    {
+            //        Numbers[i] = num;
+            //        i++;
+            //    }
+
+            //}
+            //int MaxDistance = 0;
+            //int ElementNumber = 0;
+            //for (int i = 0; i < N; i++)
+            //{
+            //    int Distance = 0;
+            //    for (int j = i + 1; j < N; j++)
+            //    {
+            //        if (Numbers[i] == Numbers[j])
+            //        {
+            //            Distance = j - i - 1;
+            //        }
+            //    }
+
+            //    if (Distance > MaxDistance)
+            //    {
+            //        MaxDistance = Distance;
+            //        ElementNumber = Numbers[i];
+            //    }
+
+            //}
+            //Console.WriteLine($"Max distance of Number {ElementNumber} is : {MaxDistance}");
 
             #endregion
         }

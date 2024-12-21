@@ -414,7 +414,7 @@ namespace Assignment
             //int.TryParse(Console.ReadLine(), out int  Columns);
 
             //int[,] Numbers = new int[Rows, Columns];
-            
+
             //for (int i = 0; i < Numbers.Length; )
             //{
             //    bool Flag = false;
@@ -442,6 +442,33 @@ namespace Assignment
             //    if(r % Columns == 0 && i>0 )
             //        Console.WriteLine();
             //}
+            #endregion
+
+            #region Q19
+            //19- Write a Program to Print One Dimensional Array in Reverse Order
+            //Console.Write("Enter the Length of the array : ");
+            //int[] Numbers = new int[int.Parse(Console.ReadLine())];
+
+            //for (int i = 0; i < Numbers.Length;)
+            //{
+            //    bool flag = true;
+            //    int num;
+            //    Console.Write($"Enter element {i + 1} : ");
+            //    flag = int.TryParse(Console.ReadLine(), out num);
+            //    if (flag)
+            //    {
+            //        Numbers[i] = num;
+            //        i++;
+            //    }
+
+            //}
+
+            //for (int i = Numbers.Length - 1; i >= 0; i--)
+            //    Console.WriteLine($"Element {i + 1} : {Numbers[i]} ");
+
+
+
+
             #endregion
         }
     }

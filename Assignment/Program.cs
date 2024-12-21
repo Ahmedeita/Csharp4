@@ -401,6 +401,48 @@ namespace Assignment
             //Console.WriteLine($"Max distance of Number {ElementNumber} is : {MaxDistance}");
 
             #endregion
+
+            #region Q18
+            /*
+             * 18- Write a program to create two multidimensional arrays of same size.
+             * Accept value from user and store them in first array. 
+             * Now copy all the elements of first array on second array and print second array.
+             */
+            //Console.Write($"Enter the Number Of Rows : ");
+            //int.TryParse(Console.ReadLine(), out int Rows);
+            //Console.Write($"Enter the Number Of Columns : ");
+            //int.TryParse(Console.ReadLine(), out int  Columns);
+
+            //int[,] Numbers = new int[Rows, Columns];
+            
+            //for (int i = 0; i < Numbers.Length; )
+            //{
+            //    bool Flag = false;
+            //    Console.Write($"Element of Array [{i / Numbers.GetLength(1)}, {i % Numbers.GetLength(1)}]");
+            //   Flag=  int.TryParse (Console.ReadLine(), out Numbers[i / Numbers.GetLength(1), i % Numbers.GetLength(1)]);
+
+            //    if (Flag)
+            //        i++;
+            //}
+
+            //int[,] CopiedNumbers = new int[Rows, Columns];
+
+            //for (int i = 0; i < Numbers.Length; i++)
+            //{
+            //    CopiedNumbers[i / CopiedNumbers.GetLength(1), i % CopiedNumbers.GetLength(1)] =
+            //    Numbers[i / Numbers.GetLength(1), i % Numbers.GetLength(1)];
+            //}
+
+
+            //for (int i = 0; i < CopiedNumbers.Length; i++)
+            //{
+            //    int r = i / CopiedNumbers.GetLength(1);
+            //    int c = i % CopiedNumbers.GetLength(1);
+            //    Console.Write(CopiedNumbers[r, c] +  " ");
+            //    if(r % Columns == 0 && i>0 )
+            //        Console.WriteLine();
+            //}
+            #endregion
         }
     }
 }
